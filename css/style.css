@@ -6,7 +6,7 @@
   min-height: 100vh;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 300px) {
   .backround-image {
       background-size: cover;
       background-position: left center;
