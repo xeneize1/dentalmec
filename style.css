@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+.backround-image{
+    background-image: url("img/Desktop2.webp");
+    background-size:cover;
+    background-repeat: no-repeat;  
+    background-attachment: fixed;
+    min-height: 300vh;
+    background-color: hsl(187, 48%, 38%);
+    
+}
+.bg{
+    position: absolute;
+    z-index: -1;
+    width: auto;
+}
+
+.chica{
+    position: absolute;
+    top: 27%;
+    width: 54%;
+    left: 47%;
+}
+
+.logo{
+    position: absolute;
+    width: 10%;
+    top: 20%;
+    left: 10%;
+}
+
+/*.backround-image{
+    background-image: url("../DentalmecSm.png") ;
+    background-size:100% 100%;
+    background-repeat: no-repeat;  
+    min-height: 100vh;
+  }
+  
+  /*@media (max-width: 480px) {*/
+  @media all and (max-width: 768px){
+    .backround-image {
+        background-size:100%;
+        /*background-position: left center;
+        background-attachment: fixed;*/
+        background-image: URL("img/Tablet2.webp");
+    }
+  }
+  @media all and (max-width: 400px){
+    .backround-image {
+        background-size: 100%;
+        background-position: left center;
+        background-image: URL("img/DentalmecSm.webp");
+    }
+  }
