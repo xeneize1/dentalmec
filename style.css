@@ -6,22 +6,110 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    background-color: hsl(187, 48%, 38%);
+    
+    
 }
 body{
     font-family: "Poppins", sans-serif;
+    background-color: hsl(187, 48%, 38%);
 }
-
-.backround-image{
+.mapa{
+    position: absolute;
+    bottom: 25%;
+    left: 25%;
+    width: 10%;
+    height: 10%;
+    display: flex;
+    z-index: 0;
+}
+.wrap-circuloverde{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(/img/circuloVerde.webp);
+    background-size: 100%;
+    background-position: center;
+    position: absolute;
+    bottom: 50%;
+    right: 40%;
+    z-index: 1;
+    
+}
+.wrap-texto{
+    color: #fff;
+    text-align: center;
+    width: 10%;
+    
+    position: fixed;
+    font-size: 10px;
+    
+}   
+.link-mapa{
+    position: fixed;
+    width: 200px;
+    
+    
+    bottom: 2%;
+    
+    
+    
+    border-radius: 5px;
+}
+.btn-wsp{
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    line-height: 55px;
+    bottom: 20%;
+    right: 30%;
+    background: #0df053;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+    z-index: 100;
+}
+.btn-wsp:hover{
+    text-decoration: none;
+    color: #0df053;
+    background: #fff;
+}
+/*
+.imagen-fondo{
     background-image: url("img/Desktop2.webp");
     background-size:cover;
-    background-repeat: no-repeat;  
+    /*background-repeat: no-repeat;  
     background-attachment: fixed;
-    min-height: 300vh;
+    min-height: 110vh;
+    /*max-width:100%;
     
+    
+}*/
+.imagen-fondo{
+    background-image: url("img/Desktop2.webp");
+    /*background-color: #0df053;*/
+    background-position: center center;
+    background-size:cover;
+    /*width: 100vw;
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 5;
+    width: 850px;
+    height: 800px;
+    */
+    width: 53vw;
+    height: 100vh;
+    padding: 1em;
+    margin: auto;
     
 }
-.bg{
+/*.bg{
     position: absolute;
     z-index: -1;
     width: auto;
@@ -39,7 +127,7 @@ body{
     width: 10%;
     top: 20%;
     left: 10%;
-}
+}*/
 
 /*.backround-image{
     background-image: url("../DentalmecSm.png") ;
@@ -50,17 +138,82 @@ body{
   
   /*@media (max-width: 480px) {*/
   @media all and (max-width: 768px){
-    .backround-image {
-        background-size:100%;
+    .imagen-fondo {
+        background-size:cover;
         /*background-position: left center;
-        background-attachment: fixed;*/
+        background-attachment: fixed;
+        min-height: 110vh;
+        */
         background-image: URL("img/Tablet2.webp");
+        
+        background-repeat: no-repeat;
+        width: 60vw;
+    height: 100vh
     }
+    .wrap-circuloverde{
+        width: 150px;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: url(/img/circuloVerde.webp);
+        background-size: 100%;
+        background-position: center;
+        position: absolute;
+        bottom: 40%;
+        right: 40%;
+        z-index: 2;
+        
+    }
+    .wrap-texto{
+        color: #fff;
+        text-align: center;
+        /*width: 10%;
+        width: inherit;*/
+        width: 10em;
+        
+        position: fixed;
+        font-size: 10px;
+        
+    }
+    .link-mapa{
+        position: fixed;
+        width: 150px;
+        
+        
+        bottom: 2%;
+        
+        
+        
+        border-radius: 5px;
+    }   
   }
   @media all and (max-width: 400px){
-    .backround-image {
+    .imagen-fondo {
         background-size: 100%;
         background-position: left center;
         background-image: URL("img/DentalmecSm.webp");
+        width: 100vw;
+    height: 100vh
     }
+    .wrap-texto{
+        color: #fff;
+        text-align: center;
+        width:20%;
+        
+        position: fixed;
+        font-size: 10px;
+        
+    } 
+    .link-mapa{
+        position: fixed;
+        width: 150px;
+        
+        left: 0%;
+        bottom: 0%;
+        
+        
+        
+        border-radius: 5px;
+    }     
   }
