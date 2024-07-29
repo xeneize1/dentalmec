@@ -13,7 +13,7 @@ body{
     font-family: "Poppins", sans-serif;
     background-color: hsl(187, 48%, 38%);
 }
-.mapa{
+/*.mapa{
     position: absolute;
     bottom: 25%;
     left: 25%;
@@ -21,7 +21,8 @@ body{
     height: 10%;
     display: flex;
     z-index: 0;
-}
+    
+}*/
 .wrap-circuloverde{
     width: 200px;
     height: 200px;
@@ -46,14 +47,29 @@ body{
     font-size: 10px;
     
 }   
+.wrap-circuloamarillo{
+    width: 20%;
+    height: 20%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(/img/circuloamarillo.webp);
+    background-size: 100%;
+    background-position: center;
+    position: absolute;
+    bottom: 10%;
+    right: 30%;
+    z-index: 1;
+    
+}
 .link-mapa{
     position: fixed;
     width: 200px;
-    
+    display: flex;
     
     bottom: 2%;
-    
-    
+      
     
     border-radius: 5px;
 }
@@ -89,7 +105,7 @@ body{
     
 }*/
 .imagen-fondo{
-    background-image: url("img/Desktop2.webp");
+    background-image: url("img/desktop.webp");
     /*background-color: #0df053;*/
     background-position: center center;
     background-size:cover;
@@ -144,7 +160,7 @@ body{
         background-attachment: fixed;
         min-height: 110vh;
         */
-        background-image: URL("img/Tablet2.webp");
+        background-image: URL("img/tablet.webp");
         
         background-repeat: no-repeat;
         width: 60vw;
