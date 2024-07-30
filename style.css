@@ -26,6 +26,11 @@ body{
 .wrap-texto-logo{
     width: 200px;
 }
+.wrap-contador{
+    position: absolute;
+    top: 1%;
+    right: 2%;
+}
 .wrap-texto-clinica{
     color: #fff;
     position: absolute;
@@ -43,13 +48,16 @@ body{
     right: 2%;
 }
 .wrap-circuloverde{
-    width: 200px;
-    height: 200px;
+    /*width: 200px;
+    height: 200px;*/
+    width: 30%;
+    height: 30%;
     display: flex;
     align-items: center;
     justify-content: center;
     background: url(/img/circuloVerde.webp);
-    background-size: 100%;
+    background-size:contain; /*100%*/
+    background-repeat: no-repeat;
     background-position: center;
     position: absolute;
     bottom: 50%;
@@ -63,7 +71,7 @@ body{
     width: 10%;
     
     position: fixed;
-    font-size: 10px;
+    font-size: 10px; 
     
 }   
 .wrap-circuloamarillo{
@@ -262,7 +270,7 @@ body{
     .imagen-fondo {
         background-size: 100%;
         background-position: left center;
-        background-image: URL("img/DentalmecSm.webp");
+        background-image: URL("img/movil.webp");
         width: 100vw;
     height: 100vh
     }
