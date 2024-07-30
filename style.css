@@ -266,7 +266,7 @@ body{
         border-radius: 5px;
     }   
   }
-  @media all and (max-width: 400px){
+  @media all and (max-width: 400px)and ( orientation: portrait ){
     .imagen-fondo {
         background-size: 100%;
         background-position: left center;
