@@ -18,7 +18,13 @@
   gtag('config', 'G-3NCCEQ06Z2');
 </script>
 <body>
-    
+    <script>
+        function lock (){
+            document.documentElement.requestFullscreen()
+            .then(()=>screen.orientation.lock("portrait"));
+            //screen.orientation.lock("landscape");
+        }
+    </script>
     <div class="imagen-fondo">
        <!--<div class="wrap-contador">-->
             <!-- Contador de visitas -->
@@ -83,6 +89,7 @@
             
           </div>
         <!--</div>-->
+        <input type="button" value="Lock" onclick="lock()">
         <div class="mapa">
             <a href="https://maps.app.goo.gl/Y1wXPrmMJowT7Qzp8"  target="_blank">
                 <img src="img/google.png" alt="Ubicación" class="link-mapa"></a>
