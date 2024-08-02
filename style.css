@@ -24,11 +24,11 @@ body{
     
 }*/
 .wrap-logo{
-    background-color: #f0a40d;
+    /*background-color: #f0a40d;*/
     width: 15%;
-    height: 50%;
+    height: 10%;
     position: absolute;
-    top: 0%;
+    top: 5%;
     display: flex;
     justify-content: flex-start;
     /*align-items: center;*/
@@ -37,7 +37,7 @@ body{
 }
 .logo-imagen{
     width: 80%;
-    height: 40%;
+    height: 80%;
 }
 .wrap-texto-logo{
     width: 150px;
@@ -55,9 +55,9 @@ body{
 .wrap-texto-clinica{
     color: #fff;
     position: absolute;
-    font-size: 25px;
+    font-size: 20px;
     width:200px; /*1rem es una unidad de medida si la fuente es de 10px*/
-    bottom: 36%;
+    top: 30%;
     left: 2%;
     text-align:start;
 }
@@ -320,6 +320,23 @@ body{
         font-size: 10px;
         
     } 
+    .wrap-texto-clinica{
+        color: #fff;
+        position: absolute;
+        font-size: 20px;
+        width:200px; /*1rem es una unidad de medida si la fuente es de 10px*/
+        top: 18%;
+        left: 2%;
+        text-align:start;
+    }
+    .wrap-circuloamarillo{
+       
+        bottom: 13%;
+        right: 1%;
+        
+        
+        
+    }
     .wrap-texto-circuloamarillo{
        
         /*
@@ -327,7 +344,7 @@ body{
         
         position: fixed;*/
         right: 25%;
-        bottom: 15%;
+        bottom: 20%;
         font-size: 8px;
     }
     .link-mapa{
@@ -340,5 +357,12 @@ body{
         
         
         border-radius: 5px;
-    }     
+    }    
+    .btn-wsp{
+       
+        bottom: 30%;
+        right: 3%;
+       
+        
+    } 
   }
