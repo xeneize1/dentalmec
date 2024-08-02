@@ -121,11 +121,11 @@ body{
 }
 .wrap-texto-circuloamarillo{
     /* background-color: brown;
-    color: #fff;*/
-    text-align: center;
-    width: 20%;
+    color: #fff;
+    text-align: center;*/
+    width: 50%;
     
-    position: fixed;
+    position: absolute;
     font-size: 80%;
 }
 
