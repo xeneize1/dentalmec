@@ -320,6 +320,16 @@ body{
         font-size: 10px;
         
     } 
+    .wrap-texto-circuloamarillo{
+       
+        /*
+        width: 10em;
+        
+        position: fixed;*/
+        right: 25%;
+        bottom: 15%;
+        font-size: 8px;
+    }
     .link-mapa{
         position: fixed;
         width: 150px;
