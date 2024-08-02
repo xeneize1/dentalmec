@@ -23,20 +23,41 @@ body{
     z-index: 0;
     
 }*/
+.wrap-logo{
+    background-color: #f0a40d;
+    width: 15%;
+    height: 50%;
+    position: absolute;
+    top: 0%;
+    display: flex;
+    justify-content: flex-start;
+    /*align-items: center;*/
+    flex-wrap: wrap; /*alinea los elementos que no entran a lo ancho los manda abajo
+    border-radius: 5px;*/
+}
+.logo-imagen{
+    width: 80%;
+    height: 40%;
+}
 .wrap-texto-logo{
-    width: 200px;
+    width: 150px;
+    font-size: 10px;
 }
 .wrap-contador{
     position: absolute;
     top: 1%;
     right: 2%;
 }
+/*.contenedor-textos{
+    display: flex;
+    justify-content: space-around;
+}*/
 .wrap-texto-clinica{
     color: #fff;
     position: absolute;
     font-size: 25px;
     width:200px; /*1rem es una unidad de medida si la fuente es de 10px*/
-    bottom: 26%;
+    bottom: 36%;
     left: 2%;
     text-align:start;
 }
@@ -46,6 +67,13 @@ body{
     font-size: 30px;
     bottom: 16%;
     right: 2%;
+}
+.direccion{
+    position: absolute;
+    color: #fff;
+    /*font-size: 30px;*/
+    bottom: 6%;
+    left: 2%;
 }
 .wrap-circuloverde{
     /*width: 200px;
@@ -87,7 +115,7 @@ body{
     position: absolute;
     bottom: 1%;
     right: 1%;
-    z-index: 1;
+    z-index: 10;
     
     
 }
@@ -103,13 +131,14 @@ body{
 
 .link-mapa{
     position: fixed;
-    width: 200px;
+    width: 150px;
+    
     display: flex;
     
-    bottom: 2%;
+    bottom: 0%;
       
     
-    border-radius: 5px;
+    border-radius: 20px;
 }
 .btn-wsp{
     position: absolute;
@@ -124,7 +153,7 @@ body{
     text-align: center;
     font-size: 30px;
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
-    z-index: 100;
+    
 }
 .btn-wsp:hover{
     text-decoration: none;
@@ -193,6 +222,9 @@ body{
   
   /*@media (max-width: 480px) {*/
   @media all and (max-width: 768px){
+    .logo-imagen{
+        width: 50px;
+    }
     .imagen-fondo {
         background-size:cover;
         /*background-position: left center;
@@ -203,7 +235,7 @@ body{
         
         background-repeat: no-repeat;
         width: 60vw;
-    height: 100vh
+        height: 100vh
     }
     .wrap-circuloamarillo{
         width: 150px;
@@ -266,7 +298,7 @@ body{
         border-radius: 5px;
     }   
   }
-  @media all and (max-width: 400px)and ( orientation: portrait ){
+  @media all and (max-width: 400px){
     .imagen-fondo {
         background-size: 100%;
         background-position: left center;
