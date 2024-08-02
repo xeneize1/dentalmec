@@ -125,8 +125,10 @@ body{
     text-align: center;*/
     width: 50%;
     
-    position: absolute;
-    font-size: 80%;
+    /*bottom: 5%;
+    right: 25%;
+    position: absolute;*/
+    font-size: 70%;
 }
 
 .link-mapa{
