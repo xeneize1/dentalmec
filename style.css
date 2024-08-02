@@ -87,7 +87,7 @@ body{
     background-size:contain; /*100%*/
     background-repeat: no-repeat;
     background-position: center;
-    position: absolute;
+    position:absolute;
     bottom: 50%;
     right: 30%;
     z-index: 1;
@@ -95,11 +95,13 @@ body{
 }
 .wrap-texto{
     color: #fff;
-    text-align: center;
-    width: 10%;
-    
-    position: fixed;
-    font-size: 10px; 
+    /*text-align: center;*/
+    width: 70%;
+    height: 40%;
+    right: 6%;
+    bottom: 30%;
+    position: absolute;
+    font-size: 70%; 
     
 }   
 .wrap-circuloamarillo{
@@ -281,10 +283,10 @@ body{
         color: #fff;
         text-align: center;
         /*width: 10%;
-        width: inherit;*/
-        width: 10em;
+        width: inherit;
+        width: 10em;*/
         
-        position: fixed;
+       
         font-size: 10px;
         
     }
@@ -311,9 +313,10 @@ body{
     .wrap-texto{
         color: #fff;
         text-align: center;
-        width:20%;
-        
-        position: fixed;
+        width:50%;
+        right: 25%;
+        bottom: 45%;
+        position: absolute;
         font-size: 10px;
         
     } 
