@@ -126,8 +126,8 @@ body{
     width: 50%;
     
     /*bottom: 5%;
-    right: 25%;
-    position: absolute;*/
+    right: 25%;*/
+    position: relative;
     font-size: 70%;
 }
 
