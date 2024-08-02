@@ -127,7 +127,7 @@ body{
     
     /*bottom: 5%;
     right: 25%;*/
-    position: relative;
+    position: fixed;
     font-size: 70%;
 }
 
