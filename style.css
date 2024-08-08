@@ -108,6 +108,7 @@ body{
     bottom: 30%;
     position: absolute;
     font-size: 70%; 
+    align-items: center;
     
 }   
 .wrap-circuloamarillo{
