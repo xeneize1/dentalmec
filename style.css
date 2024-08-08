@@ -343,7 +343,7 @@ body{
     } 
     .wrap-texto-clinica{
         color: #fff;
-        background: rgba(35, 159, 248, 0.5);
+        /*background: rgba(35, 159, 248, 0.5);*/
         position: absolute;
         font-size: 20px;
         width:150px; /*1rem es una unidad de medida si la fuente es de 10px*/
