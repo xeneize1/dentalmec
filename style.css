@@ -84,8 +84,8 @@ body{
 .wrap-circuloverde{
     /*width: 200px;
     height: 200px;*/
-    width: 30%;
-    height: 30%;
+    width: 10rem;
+    height: 10rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -97,18 +97,22 @@ body{
     bottom: 50%;
     right: 30%;
     z-index: 1;
+    padding: 1rem;
+    margin: 1rem;
     
 }
 .wrap-texto{
     color: #fff;
-    /*text-align: center;*/
-    width: 70%;
+    /*text-align: center;
+    
     height: 40%;
     right: 6%;
-    bottom: 30%;
+    bottom: 30%;*/
     position: absolute;
-    font-size: 70%; 
+    font-size: .7em; 
     align-items: center;
+    width: 6rem;
+    text-align: center;
     
 }   
 .wrap-circuloamarillo{
