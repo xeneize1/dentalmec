@@ -94,8 +94,8 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     position:absolute;
-    bottom: 50%;
-    right: 30%;
+    bottom: 15rem;
+    right: 10rem;
     z-index: 1;
     padding: 1rem;
     margin: 1rem;
